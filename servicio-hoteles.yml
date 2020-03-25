@@ -4,8 +4,8 @@ server:
 # Nombre identificador del servicio
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/viajes
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/viajes?serverTimezone=UTC
     username: root
     password: root
   jpa:
