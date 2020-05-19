@@ -10,11 +10,11 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 server: 
-  port: 8000
+  port: 7000
 # Config de el servidor  
 eureka:
   instance: 
-    hostname: ${servidor}
+    hostname: ${servidorddd}
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
