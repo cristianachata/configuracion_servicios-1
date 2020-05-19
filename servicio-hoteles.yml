@@ -14,7 +14,7 @@ server:
 # Config de el servidor  
 eureka:
   instance: 
-    hostname: 192.168.0.28
+    hostname: ${servidor}
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
